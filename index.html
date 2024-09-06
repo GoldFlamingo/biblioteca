@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de livros</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Registro de livros</h1>
+        <table id="livroTable">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Autor</th>
+                    <th>Genero</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Os itens salvos serão inseridos aqui -->
+            </tbody>
+        </table>
+        <div id="livrosAcoes">
+            <input type="text" id="nome" placeholder="Nome do livro">
+            <input type="text" id="autor" placeholder="Autor">
+            <input type="text" id="genero" placeholder="Genero">
+            <button id="adicionarLivro">Adicionar Livro</button>
+            <button id="atualizarLivro" style="display: none;">Atualizar Livro</button>
+        </div>
+    </div>
+	<script src="./index.js"></script>
+
+</body>
+</html>
