@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #ffffff;
     margin: 0;
     padding: 0;
     display: flex;
@@ -10,7 +10,7 @@ body {
 }
 
 .container {
-    background-color: #fff;
+    background-color: #ff0000;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -65,33 +65,33 @@ button {
 }
 
 #adicionarLivro {
-    background-color: #28a745;
+    background-color: #000000;
 }
 
 #adicionarLivro:hover {
-    background-color: #218838;
+    background-color: #000000;
 }
 
 #atualizarLivro {
-    background-color: #007bff;
+    background-color: #51ff00;
 }
 
 #atualizarLivro:hover {
-    background-color: #0056b3;
+    background-color: #000000;
 }
 
 .btn-Edita {
-    background-color: #007bff;
+    background-color: #2ecf36;
 }
 
 .btn-Edita:hover {
-    background-color: #0056b3;
+    background-color: #000000;
 }
 
 .btn-Deleta {
-    background-color: red;
+    background-color: rgb(0, 183, 255);
 }
 
 .btn-Deleta:hover {
-    background-color: rgb(207, 2, 2);
+    background-color: rgb(0, 0, 0);
 }
